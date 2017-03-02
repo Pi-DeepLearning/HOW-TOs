@@ -4,4 +4,4 @@
 >
 apt-get install -y  libgoogle-glog0 liblmdb0 python-protobuf libhdf5-8 libleveldb1 python-skimage  
 apt-get install --no-install-recommends libboost-all-dev  
-pip install --upgrade Cython scikit-image  
+pip install --upgrade Cython scikit-image matlab_wrapper  

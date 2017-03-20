@@ -5,13 +5,14 @@ jupyter notebook --generate-config
 ```
 
 ## Edit ~/.jupyter/jupyter_notebook_config.py:
-
- ## The IP address the notebook server will listen on.  
+  
  ```shell
+ ## The IP address the notebook server will listen on.
  #c.NotebookApp.ip = 'localhost'  
  ```
 To: 
  ```shell
+ ## The IP address the notebook server will listen on.
  c.NotebookApp.ip = '*'  
  ```
  
